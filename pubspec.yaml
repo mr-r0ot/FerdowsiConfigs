@@ -1,7 +1,8 @@
-name: Ferdowsi_Configs
-description: A new Flutter project.
-
-# This prevents the package from being accidentally published to pub.dev
+name: vpn_ferdosi
+description: >
+  VPN فردوسی — یک فیلترشکن رایگان مبتنی بر V2Ray
+  برای دسترسی امن و آزاد به اینترنت با رابط کاربری مدرن و
+  بررسی خودکار پینگ و اتصال.
 publish_to: 'none'
 
 version: 1.0.0+1
@@ -12,10 +13,12 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  http: ^0.13.0
-  path_provider: ^2.0.0
-  open_file: ^3.2.1
-  url_launcher: ^6.1.0
+
+  http: ^0.13.6
+  shared_preferences: ^2.0.15
+ 
+
+  dart_ping: ^6.0.0
 
 dev_dependencies:
   flutter_test:
